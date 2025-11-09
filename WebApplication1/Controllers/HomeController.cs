@@ -5,7 +5,7 @@ namespace WebApplication1.Controllers
     //home
     [ApiController]
     [Route("[controller]")]
-    public class apaController : Controller
+    public class HomeController : Controller
     {
         [HttpGet("apa")]
         public string Apa()
@@ -20,3 +20,4 @@ namespace WebApplication1.Controllers
         }
     }
 }
+
